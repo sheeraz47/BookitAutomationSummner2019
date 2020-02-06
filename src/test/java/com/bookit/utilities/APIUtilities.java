@@ -13,7 +13,6 @@ import static io.restassured.RestAssured.*;
 public class APIUtilities {
     private static String URI = Environment.BASE_URI;
 
-
     /**
      * Method that generates access token
      *

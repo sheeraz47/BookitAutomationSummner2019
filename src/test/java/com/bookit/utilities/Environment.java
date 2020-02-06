@@ -27,9 +27,7 @@ public class Environment {
             properties = new Properties();
             properties.load(input);
             input.close();
-
         } catch (IOException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
         URL = properties.getProperty("url");
@@ -44,8 +42,5 @@ public class Environment {
         MEMBER_PASSWORD = properties.getProperty("team_member_password");
         LEADER_USERNAME = properties.getProperty("team_leader_email");
         LEADER_PASSWORD = properties.getProperty("team_leader_password");
-
     }
-
-
 }
